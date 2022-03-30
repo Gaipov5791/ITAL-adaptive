@@ -5,6 +5,261 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ITAL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
   </head>
-  <body></body>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="navbar navbar-expand-lg header__nav">
+          <div class="container">
+            <a class="navbar-brand header__logo" href="#">
+              <img
+                class="header__logo-img"
+                src="image/logo_white.svg"
+                alt="logo"
+              />
+            </a>
+            <button
+              class="navbar-toggler header__nav-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto header__menu-list">
+                <li class="nav-item header__menu-item">
+                  <a
+                    class="nav-link active header__menu-link"
+                    aria-current="page"
+                    href="#"
+                    >Наши проекты</a
+                  >
+                </li>
+                <li class="nav-item header__menu-item">
+                  <a class="nav-link header__menu-link" href="#">Медиа</a>
+                </li>
+                <li class="nav-item header__menu-item">
+                  <a class="nav-link header__menu-link" href="#">О нас</a>
+                </li>
+                <li class="nav-item header__menu-item">
+                  <a class="nav-link header__menu-link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <div class="banner">
+          <div class="banner__cover">
+            <div class="container">
+              <div class="banner__body">
+                <div class="row align-items-center">
+                  <div class="col-12 col-lg-8 col-xl-9">
+                    <h1 class="banner__body-title">
+                      Проектирование элитной недвижимости "под ключ"
+                    </h1>
+                  </div>
+                  <div class="col-12 col-lg-4 col-xl-3">
+                    <div class="banner__desc">
+                      <p class="banner__desc-txt">
+                        Запишитесь на бесплатную онлайн консультацию
+                      </p>
+                      <button class="banner__desc-btn btn" type="submit">
+                        Записаться
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="banner__slidebar">
+                    <div class="banner__slidebar-circle active"></div>
+                    <div class="banner__slidebar-circle"></div>
+                    <div class="banner__slidebar-circle"></div>
+                    <div class="banner__slidebar-circle"></div>
+                    <div class="banner__slidebar-circle"></div>
+                    <div class="banner__slidebar-circle"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="service">
+          <div class="container">
+            <h2 class="service__title section-title">Наши услуги</h2>
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <div class="service__item service__item--1">
+                  <p class="service__name">Загородный дом</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="service__item service__item--2">
+                  <p class="service__name">Квартира</p>
+                  <a href="#" class="service__link btn">Посмотреть</a>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="service__item service__item--3">
+                  <p class="service__name">Нежилые помещения</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="pages">
+          <div class="container">
+            <h2 class="pages__title section__title">
+              Присоединяйтесь к нам в Instagram
+            </h2>
+            <div class="row">
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="pages__item"></div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="pages__item pages__item--1"></div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="pages__item pages__item--2"></div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="pages__item pages__item--3"></div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="pages__item pages__item--4"></div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="pages__item pages__item--5"></div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="pages__item pages__item--6"></div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="pages__item pages__item--7"></div>
+              </div>
+            </div>
+            <div class="pages__btn">
+              <a href="#" class="pages__btn-link btn"> Присоединиться </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__body">
+          <div class="container">
+            <div class="footer__inner">
+              <div class="footer__catalog">
+                <div class="footer__logo">
+                  <a href="#" class="footer__logo-link">
+                    <img
+                      src="image/logo_white.svg"
+                      alt="icon"
+                      class="footer__logo-img"
+                    />
+                  </a>
+                </div>
+                <div class="footer__info">
+                  <div class="footer__info-line"></div>
+                  <h4 class="footer__title-info">Информация</h4>
+                  <div class="footer__info-line"></div>
+                  <ul class="footer__menu footer__menu-info">
+                    <li class="footer__item">
+                      <a href="#" class="footer__link">Загородные дома</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="#" class="footer__link">Квартиры</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="#" class="footer__link">Нежилые помещения</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="#" class="footer__link">Медиафайлы</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="#" class="footer__link">О компании</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer__contacts">
+                  <h3 class="footer__title">Контакты</h3>
+                  <ul class="footer__menu">
+                    <li class="footer__item footer__item-contact">
+                      <img src="image/footer-tel.svg" alt="icon" />
+                      <a href="tel:+ 7 (499) 400-16-12" class="footer__link"
+                        >+ 7 (499) 400-16-12</a
+                      >
+                    </li>
+                    <li class="footer__item footer__item-contact">
+                      <img src="image/footer-mail.svg" alt="icon" />
+                      <a
+                        href="mailto:italproject@gmail.com"
+                        class="footer__link"
+                        >italproject@gmail.com</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer__media">
+                  <h4 class="footer__title">Соц.сети</h4>
+                  <ul class="footer__media-menu">
+                    <li class="footer__media-item footer__media-item-active">
+                      <a href="#" class="footer__media-link">
+                        <img src="image/facebook.svg" alt="icon" />
+                      </a>
+                    </li>
+                    <li class="footer__media-item">
+                      <a href="#" class="footer__media-link">
+                        <img src="image/youtube.svg" alt="icon" />
+                      </a>
+                    </li>
+                    <li class="footer__media-item">
+                      <a href="#" class="footer__media-link">
+                        <img src="image/pinterest.svg" alt="icon" />
+                      </a>
+                    </li>
+                    <li class="footer__media-item">
+                      <a href="#" class="footer__media-link">
+                        <img src="image/instagram.svg" alt="icon" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer__line"></div>
+              <div class="footer__txt">
+                <p>
+                  <a href="#" class="footer__txt-link"
+                    >Политика конфиденциальности</a
+                  >
+                </p>
+                <p>
+                  <a href="#" class="footer__txt-link">designed by Linar</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
