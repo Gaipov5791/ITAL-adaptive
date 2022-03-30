@@ -1,0 +1,23 @@
+@import "vars";
+
+body {
+  font-family: $main-font;
+  font-size: 18px;
+  color: $dark;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+main {
+  flex: 1 1 auto;
+}

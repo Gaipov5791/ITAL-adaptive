@@ -1,0 +1,45 @@
+@import "vars";
+
+.banner {
+  &__cover {
+    margin-bottom: 134px;
+    position: relative;
+    background-image: url("../image/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 800px;
+  }
+
+  &__body {
+    margin: 0 auto;
+    display: flex;
+    padding: 140px 0 504px 0;
+    position: relative;
+    z-index: 2;
+  }
+
+  &__body-title {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 140%;
+    color: $white;
+  }
+
+  &__desc-txt {
+    margin: 0 0 20px 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $white;
+  }
+
+  &__desc-btn {
+    padding: 18px 77px 17px;
+  }
+}

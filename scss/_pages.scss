@@ -1,0 +1,48 @@
+@import "vars";
+
+.pages {
+  margin-bottom: 140px;
+  &__title {
+    margin-top: 120px;
+    margin-bottom: 60px;
+  }
+  &__item {
+    max-width: 100%;
+    min-height: 262px;
+    background-image: url(../image/p-card.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    margin-bottom: 40px;
+  }
+
+  &__item--1 {
+    background-image: url(../image/p-card1.jpg);
+  }
+  &__item--2 {
+    background-image: url(../image/p-card2.jpg);
+  }
+  &__item--3 {
+    background-image: url(../image/p-card3.jpg);
+  }
+  &__item--4 {
+    background-image: url(../image/p-card4.jpg);
+  }
+  &__item--5 {
+    background-image: url(../image/p-card5.jpg);
+  }
+  &__item--6 {
+    background-image: url(../image/p-card6.jpg);
+  }
+  &__item--7 {
+    background-image: url(../image/p-card7.jpg);
+  }
+  &__btn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  &__btn-link {
+    padding: 18px 54px 17px;
+  }
+}
